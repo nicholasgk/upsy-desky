@@ -30,7 +30,7 @@ esphome:
     version: "0.2.0"
 
 dashboard_import:
-  package_import_url: github://tjhorner/upsy-desky/firmware/config.yaml
+  package_import_url: github://nicholasgk/upsy-desky/firmware/config.yaml
 
 uart:
   id: handset_tx
@@ -62,8 +62,8 @@ ota:
   password: ""
 
 packages:
-  standing_desk: github://tjhorner/esphome-standing-desk/configs/template.yaml@master
-  presets_addon: github://tjhorner/esphome-standing-desk/configs/addons/presets.yaml@master
+  standing_desk: github://nicholasgk/esphome-standing-desk/configs/template.yaml@master
+  presets_addon: github://nicholasgk/esphome-standing-desk/configs/addons/presets.yaml@master
 
 select:
   - platform: template
